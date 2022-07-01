@@ -1,0 +1,73 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Olá", "Oi", "Alguém ai?", "Opa", "Oie", "Oii", "Boa noite", "Bom dia", "Boa tarde", "E ai"],
+         "responses": ["Olá. Como posso ajudar?"],
+         "context": [""]
+        },
+        {"tag": "good_greeting",
+         "patterns": ["Tudo bem?", "Como vai você?", "Olá, Tudo bem?", "Oi, Como vai você?", "Como você está?", "Oi, como você está?", "Oi, tudo bem?", "Olá, como vai você?"],
+         "responses": ["Vou bem, obrigado. Como posso ajudar?"],
+         "context": [""]
+        },
+        {"tag": "register",
+         "patterns": ["Atualização Cadastral", "Gostaria de atualizar meus dados", "Atualizar dados", "Quero atualizar meu cadastro", "Atualizar meu cadastro", "Alterar meus dados", "Alterar meu cadastro"],
+         "responses": [""],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Tchau", "Até mais", "Vejo você depois"],
+         "responses": ["Até mais!", "Até outra hora.", "Tchau. :)"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Obrigado", "Agradeço", "Muito obrigado", "Perfeito, obrigado", "Obrigado pela ajuda", "Você me ajudou demais"],
+         "responses": ["Fico feliz em ajudar!", "Por dada. :)", "Imagina."],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["Opções", "Gostaria de uma informação", "Como você pode me ajudar?", "O que você pode fazer?", "O que você pode fazer por mim?", "Estou com dúvidas?", "Estou com uma dúvida", "Preciso de ajuda"],
+         "responses": ["Eu posso te ajudar com suas dúvidas sobre nossos produtos.\nTambém posso abrir um chamado para você caso eu não consiga te ajudar.\nPara facilitar, essa é a lista das coisas que eu posso fazer:\n\n• Atualizar dados cadastrais\n• Como faço login?\n• Como encontro meu consumo de energia?\n• Onde pago minha conta?\n• Minha energia caiu!\n• Religamento de enegia.\n• Previsão de consumo de energia."],
+         "context": [""]
+        },
+        {"tag": "login",
+         "patterns": ["Login", "Minha senha está errada", "Estou recebendo uma mensagem de senha incorreta", "Minhas credências estão incorretas", "Não sei minha senha", "Perdi minha senha"],
+         "responses": ["Para fazer login voce deve acessar energias.com/login e inserir seu e-mail e senha.\nCaso você tenha esquecido sua senha, basca clicar em \"Esqueci minha senha\" e informar o seu endereço de e-mail. Um e-mail de recuperação será enviado para você."],
+         "context": [""]
+        },
+        {"tag": "ticket",
+         "patterns": ["Gostaria de abrir um ticket", "Você pode abrir um ticket", "Quero falar com um humano", "Ticket", "Abrir ticket","Abrir um chamado", "Abrir uma solicitação", "Tenho um problema", "Solicito a abertura de um chamado","Preciso abrir um chamado", "Gostaria de abrir um chamado","Quero abrir um chamado", "Chamado", "Abrir chamado", "Abrir um chamado", "Não consegui", "Não sei fazer isso", "Não sei", "Você não está ajudando"],
+         "responses": [""],
+         "context": [""]
+        },
+        {"tag": "energy_consumer",
+         "patterns": ["Gostaria de saber meu consuno nos últimos meses", "Consumo nos ultimos meses", "Consumo em 6 meses", "Histórico de consumo", "Relatório de consumo", "Log de consumo"],
+         "responses": ["Seu consumo foi de 900 kWh em 6 meses, com média de 150 kWh/mês."],
+         "context": [""]
+        },
+        {"tag": "bill",
+         "patterns": ["Gostaria de tirar a segunda via da fatura", "Como tirar a segunda via da fatura?", "Preciso da segunda via da fatura", "Tirar segunda via", "Segunda via", "Onde pagar a fatura?", "Como pagar a fatura?", "Como funciona o pagamento de fatura?"],
+         "responses": ["Para tirar a segunda via é preciso acessar nosso site e selecionar a segunda via, informando seu endereço e CPF do titular. As faturas podem ser pagas em qualquer banco até a data de vencimento."],
+         "context": [""]
+        },
+        {"tag": "blackout",
+         "patterns": ["Quero relatar uma queda de energia","Minha energia caiu, o que faço?", "Minha energia caiu", "Queda de energia", "Luz caiu", "Energia acabou", "Falta de energia", "Falta da luz", "Blackout"],
+         "responses": [""],
+         "context": [""]
+        },
+        {"tag": "turnbackon",
+         "patterns": ["Como religar uma unidade consumidora?", "Religar", "Gostaria de religar minha energia", "Religar unidade", "Religar unidade consumidora", "Religar energia", "Ligar novamente a energia", "Ligar novamente a unidade consumidora"],
+         "responses": [""],
+         "context": [""]
+        },
+        {"tag": "who",
+         "patterns": ["Quem é você?", "Qual seu nome?", "Quem ser você?", "Você é humano?", "Você é de verdade?", "Você é de onde?", "Onde mora?", "O que é você?", "Você é quem?", "O que você é?"],
+         "responses": ["Eu sou o ThunderBot, trocadilho para ThunderBolt (risos).\nSou um bot de atendimento da Energias criado para atendimento e suporte ao cliente.\nSerá um prazer ajudá-lo!"],
+         "context": [""]
+        },
+        {"tag": "energy",
+         "patterns": ["Gostaria de saber a previsão de consumo de energia.", "Energia", "Casa", "Previsão de energia", "Consumo", "Consumo de energia", "Previsão de consumo"],
+         "responses": [""],
+         "context": [""]
+        }
+   ]
+}
